@@ -1,0 +1,83 @@
+.navbar{
+    display: flex;
+    gap: 60%;
+    justify-content: space-around;
+    background-color: grey;
+    color: white;
+    overflow: hidden;
+}
+#btn{
+    height: 40px;
+    position: relative;
+    top: 9px;
+    border-radius: 9px;
+}
+body{
+    background-color: black;
+}
+.hide{
+    display: none;
+}
+.mymodal{
+    
+    position: fixed;
+    z-index: 1;
+    width: 60%;
+    height: 76%;
+    margin-left: 17%;
+    margin-top: 1%;
+    /*overflow: auto;*/
+    background-color: rgb(200, 180, 180);
+}
+.modal-content{
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 17%;
+    padding: 20px;
+    border: 1px solid black;
+    width: 60%;
+    height: 85%;
+}
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover{
+    color: black;
+    cursor: pointer;
+}
+
+textarea{
+    height: 150px;
+    width: 88%;
+    resize: none;
+}
+input{
+    height: 20px;
+    width: 88%;
+    margin-top: 20px;
+}
+#add-data{
+    color: white;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+}
+.btn-delete{
+    margin-left: 30px;
+}
+
+.edit{
+    border: 1px solid white;
+}
+.timer{
+    margin-left: 55%;
+}
+.div-class{
+    border: 1px solid white;
+    margin-top: 15px;
+}
